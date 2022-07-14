@@ -1,0 +1,30 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antoniocruz-tiodev/antoniocruz-tiodev.git"
+  },
+  "author": "antonio cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoniocruz-tiodev/antoniocruz-tiodev/issues"
+  },
+  "homepage": "https://github.com/antoniocruz-tiodev/antoniocruz-tiodev#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "consign": "^0.1.6",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
